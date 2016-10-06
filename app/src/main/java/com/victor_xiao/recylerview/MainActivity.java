@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(mLayoutManager);
 
         // specify an adapter
-        String[] myDataset={"北京","上海","广州","深圳","石家庄","杭州","天津","太原","呼和浩特"};
+        String[] myDataset={"北京","上海","广州","深圳","石家庄","杭州","天津",
+                "太原","呼和浩特","重庆","拉萨","银川","桂林","哈尔滨","长春","沈阳","大连","济南","南京"};
         mAdapter = new MyAdapter(myDataset);
         mRecyclerView.setAdapter(mAdapter);
     }
